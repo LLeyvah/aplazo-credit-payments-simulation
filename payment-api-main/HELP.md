@@ -16,16 +16,19 @@ The following guides illustrate how to use some features concretely:
 * [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
 ### Health Endpoint
-* Open http://localhost:8080/actuator/health in browser
+* Open http://localhost:9000/actuator/health in browser
 
 ### H2 Database Console
-* http://localhost:8080/h2-console
+* http://localhost:9000/h2-console
 
 ### Run api in docker
 Build docker image
 1. Generate JAR
 ```
+Win
 .\mvnw clean package
+Linux
+./mvnw clean package
 ```
 2. Run Postgresql docker image
 ```
